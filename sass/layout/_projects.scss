@@ -1,0 +1,6 @@
+.projects {
+  @extend .section;
+  &__filter {
+    margin-bottom: 50px;
+  }
+}

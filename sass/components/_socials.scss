@@ -1,0 +1,29 @@
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials__link {
+  @extend .link--block;
+  width: 44px;
+  height: 44px;
+
+  color: $icon-color;
+  border-radius: 44px;
+  cursor: pointer;
+
+  transition: background-color $transition-duration-func,
+    color $transition-duration-func;
+
+  &:hover,
+  &:focus {
+    background-color: $active-color;
+    color: $background;
+  }
+
+  &--bright {
+    color: $background;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color $transition-duration-func;
+  }
+}

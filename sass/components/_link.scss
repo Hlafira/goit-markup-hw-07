@@ -1,0 +1,26 @@
+.link {
+  transition: color $transition-duration-func;
+  cursor: pointer;
+
+  &__icon {
+    fill: currentColor;
+  }
+
+  &:hover {
+    color: $active-color;
+  }
+}
+
+.link--text-icon {
+  @extend .link;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link--block {
+  @extend .link;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

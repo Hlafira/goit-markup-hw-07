@@ -1,0 +1,21 @@
+.card-set {
+  list-style: none;
+  display: flex;
+  gap: $card-gap;
+
+  &__item--3 {
+    flex-basis: calc((100% - 2 * #{$card-gap}) / 3);
+  }
+
+  &__item--4 {
+    flex-basis: calc((100% - 3 * #{$card-gap}) / 4);
+  }
+
+  &__item--6 {
+    flex-basis: calc((100% - 5 * #{$card-gap}) / 6);
+  }
+
+  &--wrapped {
+    flex-wrap: wrap;
+  }
+}

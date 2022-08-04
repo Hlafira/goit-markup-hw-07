@@ -1,0 +1,53 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $hero-color;
+
+  &__container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $background;
+  }
+
+  &__contacts {
+    margin-right: 70px;
+  }
+
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+    color: $text-primary-color;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &__link {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &__link--address {
+    color: $text-primary-color;
+    transition: none;
+  }
+
+  &__link--address:hover {
+    color: $background;
+  }
+}
+
+/* footer-socials */
+
+.footer__join {
+  margin-right: 93px;
+}

@@ -1,0 +1,50 @@
+.subscribe {
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $background;
+  }
+
+  &__form {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0;
+
+    font-weight: 700;
+    line-height: 1.14;
+
+    color: $background;
+    border: none;
+  }
+
+  &__field {
+    margin-right: 12px;
+  }
+}
+
+.subscribe__input {
+  min-width: 358px;
+  padding: 16px 15px;
+  font-size: 16px;
+  line-height: 1.2;
+  color: $background;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $active-color;
+  }
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

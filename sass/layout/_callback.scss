@@ -1,0 +1,28 @@
+.callback {
+  &__title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    color: $title-color;
+  }
+
+  &__field-text {
+    margin-bottom: 10px;
+  }
+
+  &__field-checkbox {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  &__buttons {
+    text-align: center;
+  }
+
+  &__button {
+    padding-right: 52px;
+    padding-left: 52px;
+  }
+}
