@@ -200,7 +200,7 @@ address {
 
 .button--primary {
   font-weight: 700;
-  line-height: 1.88;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: #fff;
   background-color: #2196f3;
@@ -416,7 +416,7 @@ address {
   margin-left: 5px;
   margin-bottom: 0;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.715;
   color: var(--text-color);
   cursor: pointer;
 }
