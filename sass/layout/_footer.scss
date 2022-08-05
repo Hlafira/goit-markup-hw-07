@@ -12,6 +12,7 @@
     margin-bottom: 20px;
 
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: $background;
@@ -41,7 +42,8 @@
     transition: none;
   }
 
-  &__link--address:hover {
+  &__link--address:hover,
+  &__link--address:focus {
     color: $background;
   }
 }

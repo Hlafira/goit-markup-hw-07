@@ -23,7 +23,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="./css/main.min.css" />
 
-    <!-- Иконка -->
+    <!-- Favicon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -46,7 +46,7 @@
     <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <!--=====================Заголовок ===================================-->
+    <!--=====================HEADER ===================================-->
 
     <header class="header">
       <div class="container header__container">
@@ -95,18 +95,22 @@
     </header>
 
     <main>
-      <!--============================== Шапка ===========================================-->
+      <!--============================== HERO ===========================================-->
 
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button button--primary" type="button" data-modal-open>
+          <button
+            class="button hero__button button--primary"
+            type="button"
+            data-modal-open
+          >
             Заказать услугу
           </button>
         </div>
       </section>
 
-      <!--================================== Приемущества ================================================-->
+      <!--================================== ADVANTAGES ================================================-->
 
       <section class="section">
         <div class="container">
@@ -172,7 +176,7 @@
         </div>
       </section>
 
-      <!--================Чем мы занимаемся ================================-->
+      <!--================RESPONSIBILITY ================================-->
 
       <section class="section section--no-padding">
         <div class="container">
@@ -227,7 +231,7 @@
         </div>
       </section>
 
-      <!--=========================================Наша команда============================ -->
+      <!--=========================================TEAM============================ -->
       <section class="section section--background">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
@@ -425,7 +429,7 @@
         </div>
       </section>
 
-      <!-- ==============Постоянные клиенты ===============================-->
+      <!-- ==============REGULAR CUSTOMERS ===============================-->
 
       <section class="section">
         <div class="container">
@@ -478,7 +482,7 @@
       </section>
     </main>
 
-    <!--========================= Футер ================================= -->
+    <!--========================= FOOTER ================================= -->
 
     <footer class="footer">
       <div class="container footer__container">
@@ -512,7 +516,7 @@
         </div>
 
         <div class="footer__join">
-          <h2 class="footer__title">присоединяйтесь</h2>
+          <p class="footer__title">присоединяйтесь</p>
           <ul class="footer__socials socials">
             <li class="socials__item">
               <a href="" class="socials__link link socials__link--bright">
@@ -636,7 +640,10 @@
             >
           </label>
           <div class="callback__buttons">
-            <button class="button button--primary" type="submit">
+            <button
+              class="button button--primary callback__button"
+              type="submit"
+            >
               Отправить
             </button>
           </div>

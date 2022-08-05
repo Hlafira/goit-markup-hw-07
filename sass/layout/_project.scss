@@ -20,7 +20,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--title-color);
+    color: $title-color;
   }
 
   &__type {
@@ -28,7 +28,7 @@
     margin-bottom: 0;
     font-size: 16px;
     line-height: 1.88;
-    color: var(--text-color);
+    color: $text-color;
   }
 
   &__thumb {
@@ -48,7 +48,7 @@
     padding: 63px 24px;
     margin-bottom: 0;
 
-    color: var(--background);
+    color: $background;
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
