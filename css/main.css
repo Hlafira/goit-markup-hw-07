@@ -437,7 +437,7 @@ address {
 }
 .field-checkbox__checkbox:checked + .field-checkbox__box {
   border: 2px solid #2196f3;
-  background: #2196f3 url("../../images/elements/icon-check.svg") center center no-repeat;
+  background: #2196f3 url("../images/elements/icon-check.svg") center center no-repeat;
   background-size: contain;
 }
 
